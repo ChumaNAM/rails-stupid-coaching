@@ -1,0 +1,11 @@
+<h1>Stupid Coaching</h1>
+<p><%=params[:answer] %></p>
+<p>-You</p>
+<br>
+<p><%= @answer%></p>
+<p>-Your Coach</p>
+<%# <form action="/answer" data-turbo="false" method="get">
+  <input type="text" name="answer">
+  <input type="submit" value="Ask!">
+</form> %>
+<%= link_to "Ask a new question", ask_path %>
